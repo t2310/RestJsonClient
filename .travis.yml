@@ -2,8 +2,6 @@ language: csharp
 dist: trusty
 sudo: required
 mono: none
-dotnet: 1.1
-before_script: cd ./src/RestJsonClient/
+dotnet: 1.0.0-preview3-004056
 script:
-  - dotnet restore
-  - dotnet build
+  - ./src/RestJsonClient/build.sh
