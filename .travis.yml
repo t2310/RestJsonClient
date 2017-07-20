@@ -3,5 +3,7 @@ dist: trusty
 sudo: required
 mono: none
 dotnet: 1.1
+before_script: cd ./src/RestJsonClient/
 script:
-  - ./src/RestJsonClient/build.sh
+  - dotnet restore
+  - dotnet build
