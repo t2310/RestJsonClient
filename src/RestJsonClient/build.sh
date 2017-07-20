@@ -1,1 +1,3 @@
-dotnet restore && dotnet build
+set -ev
+dotnet restore
+dotnet build
