@@ -25,6 +25,10 @@ namespace RestJson.Core.Base
             _baseUrl = baseUrl;
             _contentType = "application/json";
 
+            _getMethod = "GET";
+            _postMethod = "POST";
+            _putMethod = "PUT";
+
             _jsonSerializerSettings = jsonSerializerSettings;
 
             if (_jsonSerializerSettings == null)
