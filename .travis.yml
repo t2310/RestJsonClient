@@ -5,8 +5,6 @@ mono: none
 dotnet: 1.0.1
 notifications:
   email: false
-  webhook: 
-  - http://37.140.195.148:5003/api/values/webhook
 before_script:
   - cd ./src/RestJsonClient
 script:
