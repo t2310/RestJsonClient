@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestJsonClient.Core.Base
+namespace RestJson.Core.Base
 {
     public class RestJsonClient
     {

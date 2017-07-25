@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestJsonClient.Core", "RestJsonClient.Core\RestJsonClient.Core.csproj", "{EDA819B7-225C-4356-8AFB-FD4C1116CFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaughtySoft.RestJson.Core", "RestJsonClient.Core\NaughtySoft.RestJson.Core.csproj", "{EDA819B7-225C-4356-8AFB-FD4C1116CFE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
