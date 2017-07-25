@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RestJson.Core.Base
 {
-    public class RestJsonClient
+    public abstract class RestJsonClient
     {
         protected readonly JsonSerializerSettings _jsonSerializerSettings;
 
